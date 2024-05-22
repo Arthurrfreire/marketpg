@@ -1,155 +1,149 @@
-/* Estilos gerais */
 body {
-    font-family: 'Inter', sans-serif;
-    margin: 0;
-    padding: 0;
-    line-height: 1.6;
-    color: #333; /* Cor do texto principal (cinza escuro) */
-  }
-  
-  .container {
-    width: 80%;
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 20px;
-  }
-  
-  /* Estilos do cabeçalho */
-  header {
-    background-color: #243F72; /* Cor de fundo azul do cabeçalho */
-    padding: 20px 0;
-    color: white;
-    display: flex;
-    align-items: center;
-  }
-  
-  .header-content {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    width: 100%; 
-  }
-  
-  .logo-area {
-    flex: 1; 
-  }
-  
-  .logo-area img {
-    max-width: 100%; 
-    height: auto; 
-  }
-  
-  nav {
-    display: flex; 
-    gap: 20px; 
-  }
-  
-  nav button {
-    background-color: #F53131;
-    color: white;
-    padding: 10px 20px;
-    border: none;
-    cursor: pointer;
-    border-radius: 5px;
-    font-family: 'Inter', sans-serif;
-    font-size: 1em;
-  }
-  
-  /* Estilos do banner */
-  #banner {
-    background-color: white;
-    padding: 50px 0;
-    text-align: center;
-  }
-  
-  .banner-text h1 {
-    color: #32466D;
-    font-size: 3em;
-    margin-bottom: 10px;
-  }
-  
-  .banner-text p {
-    color: #555;
-    font-size: 1.2em;
-    margin-bottom: 20px;
-  }
-  
-  .banner-text button {
-    background-color: #F53131;
-    color: white;
-    padding: 15px 30px;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    font-size: 1.2em;
-    font-family: 'Inter', sans-serif;
-  }
-  
-  /* Estilos do carrossel */
-  #carousel {
-    position: relative;
-    width: 100%;
-    height: 50vh;
-    overflow: hidden;
-  }
-  
-  .carousel-container {
-    width: 100%;
-    height: 100%;
-    position: absolute;
-    top: 0;
-    left: 0;
-  }
-  
-  .carousel-container img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    filter: blur(5px);
-    position: absolute;
-    top: 0;
-    left: 0;
-    opacity: 0;
-    transition: opacity 1s ease-in-out;
-  }
-  
-  .carousel-container img.active {
-    opacity: 1;
-  }
-  
-  /* Estilos para os destaques */
-  #destaques {
-    padding: 50px 0;
-  }
-  
-  .destaques-wrapper {
-    display: flex;
-    justify-content: space-around;
-    gap: 20px;
-  }
-  
-  .destaque {
-    flex: 1 1 28%; /* Cada destaque ocupa 28% da largura, com espaço flexível */
-    min-width: 250px; /* Largura mínima para evitar que os destaques fiquem muito pequenos */
-    border: 1px solid #eee;
-    padding: 20px;
-    text-align: center;
-    border-radius: 10px;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-  }
-  
-  .destaque img {
-    max-width: 100%;
-    height: auto;
-    margin-bottom: 10px;
-    border-radius: 5px;
-  }
-  
-  /* Estilos do rodapé */
-  footer {
-    background-color: #333;
-    color: white;
-    padding: 20px 0;
-    text-align: center;
-  }
-  
+  font-family: 'Inter', sans-serif;
+  margin: 0;
+  padding: 0;
+  line-height: 1.6;
+  color: #333; 
+}
+
+.container {
+  width: 80%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+header {
+  background-color: #243F72; 
+  padding: 20px 0;
+  color: white;
+  display: flex;
+  align-items: center;
+}
+
+.header-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%; 
+}
+
+.logo-area {
+  flex: 1; 
+}
+
+.logo-area img {
+  max-width: 100%; 
+  height: auto; 
+}
+
+nav {
+  display: flex; 
+  gap: 20px; 
+}
+
+nav button {
+  background-color: #F53131;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  font-family: 'Inter', sans-serif;
+  font-size: 1em;
+}
+
+#banner {
+  background-color: white;
+  padding: 50px 0;
+  text-align: center;
+}
+
+.banner-text h1 {
+  color: #32466D;
+  font-family: "Roboto Slab", Arial Black, Gadget, sans-serif; 
+  font-size: 3em;
+  margin-bottom: 10px;
+}
+
+.banner-text p {
+  color: #555;
+  font-size: 1.2em;
+  margin-bottom: 20px;
+}
+
+.banner-text button {
+  background-color: #F53131;
+  color: white;
+  padding: 15px 30px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1.2em;
+  font-family: 'Inter', sans-serif;
+}
+
+#carousel {
+  position: relative;
+  width: 100%;
+  height: 50vh;
+  overflow: hidden;
+}
+
+.carousel-container {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.carousel-container img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  filter: blur(5px);
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: 0;
+  transition: opacity 1s ease-in-out;
+}
+
+.carousel-container img.active {
+  opacity: 1;
+}
+
+#destaques {
+  padding: 50px 0;
+}
+
+.destaques-wrapper {
+  display: flex;
+  justify-content: space-around;
+  gap: 20px;
+}
+
+.destaque {
+  flex: 1 1 28%; 
+  min-width: 250px; 
+  border: 1px solid #eee;
+  padding: 20px;
+  text-align: center;
+  border-radius: 10px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.destaque img {
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 10px;
+  border-radius: 5px;
+}
+
+footer {
+  background-color: #333;
+  color: white;
+  padding: 20px 0;
+  text-align: center;
+}

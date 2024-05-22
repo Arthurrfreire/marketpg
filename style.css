@@ -3,7 +3,7 @@ body {
   margin: 0;
   padding: 0;
   line-height: 1.6;
-  color: #333; 
+  color: #ffffff; 
 }
 
 .container {
@@ -142,35 +142,80 @@ nav button {
 }
 
 footer {
-  background-color: #243F72; 
-  color: white;
+  color: #333; 
+  padding: 40px 0;
+  padding: 20px 0;
+  text-align: center;
 }
 
 .rodape-content {
+  background-color: #243F72;
   display: flex;
   justify-content: space-around;
-  align-items: flex-start; 
+  align-items: center; 
   flex-wrap: wrap;
-  gap: 20px;
+  padding: 20px;
+}
+
+.logo-footer-area {
+  display: flex; 
+  align-items: center; 
 }
 
 .logo-footer-area img {
-  height: 200px;
+  height: 100px; 
+  margin-right: 20px; 
+}
+
+.whatsapp-button {
+  display: flex;
+  align-items: center;
+  background-color: #F5BD31; 
+  color: #333; 
+  padding: 10px 20px;
+  border: none;
+  border-radius: 25px; 
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.whatsapp-button img {
+  height: 20px;
+  margin-right: 8px;
+}
+
+.footer-links {
+  display: flex; 
+  gap: 20px;
+}
+
+.links-column {
+  flex: 1; 
+  text-align: center; 
 }
 
 .footer-links a {
   display: block;
-  color: white;
+  color: #333; /* Cor do texto dos links (cinza escuro) */
   text-decoration: none;
   margin-bottom: 10px;
 }
 
+.footer-contato {
+  text-align: right;
+}
+
 .footer-contato h3 {
   margin-top: 0;
+  
+}
+
+.footer-contato p {
+  margin: 5px 0; 
 }
 
 .footer-bottom {
-  background-color: #333;
+  background-color: #000000;
   padding: 10px 0;
   text-align: center;
 }

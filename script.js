@@ -8,6 +8,9 @@ function navigateTo(page) {
 
           document.getElementById('main-content').innerHTML = newMainContent;
           history.pushState({}, '', page); 
+          if (page === 'localizacao.html') {
+              initMap();
+          }
       });
 }
 

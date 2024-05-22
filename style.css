@@ -154,7 +154,7 @@ footer {
   align-items: center;
   flex-wrap: wrap;
   gap: 20px;
-  padding: 40px 20px; /* Adiciona padding apenas no topo e na base */
+  padding: 40px 20px; 
 }
 
 .logo-footer-area {
@@ -219,4 +219,39 @@ footer {
   padding: 10px 0;
   text-align: center;
   width: 100%;
+}
+
+#localizacao {
+  padding: 50px 0;
+  text-align: center; 
+}
+
+#localizacao h2 {
+  color: #32466D;
+  font-size: 2.5em;
+  margin-bottom: 20px;
+}
+
+.loja-info {
+  margin-bottom: 30px;
+}
+
+.loja-info h3, .loja-info h4 {
+  color: #F53131;
+}
+
+.mapa-container {
+  width: 100%;
+  height: 400px;
+  border-radius: 10px; 
+}
+
+#trocar-loja {
+  background-color: #F5BD31;
+  color: #333;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  font-family: 'Inter', sans-serif;
 }

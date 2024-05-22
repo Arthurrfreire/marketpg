@@ -119,6 +119,7 @@ nav button {
 }
 
 .destaques-wrapper {
+  color: #0a0a0a;
   display: flex;
   justify-content: space-around;
   gap: 20px;
@@ -127,11 +128,12 @@ nav button {
 .destaque {
   flex: 1 1 28%; 
   min-width: 250px; 
-  border: 1px solid #eee;
+  border: 3px solid #000000;
   padding: 20px;
   text-align: center;
   border-radius: 10px;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  background-color: #F5BD31;
 }
 
 .destaque img {
@@ -142,19 +144,17 @@ nav button {
 }
 
 footer {
-  color: #333; 
-  padding: 40px 0;
-  padding: 20px 0;
-  text-align: center;
+  background-color: #243F72;
+  color: white; 
 }
 
 .rodape-content {
-  background-color: #243F72;
   display: flex;
-  justify-content: space-around;
-  align-items: center; 
+  justify-content: space-between;
+  align-items: center;
   flex-wrap: wrap;
-  padding: 20px;
+  gap: 20px;
+  padding: 40px 20px; /* Adiciona padding apenas no topo e na base */
 }
 
 .logo-footer-area {
@@ -196,7 +196,7 @@ footer {
 
 .footer-links a {
   display: block;
-  color: #333; /* Cor do texto dos links (cinza escuro) */
+  color: white; 
   text-decoration: none;
   margin-bottom: 10px;
 }
@@ -207,7 +207,7 @@ footer {
 
 .footer-contato h3 {
   margin-top: 0;
-  
+  margin-bottom: 10px; 
 }
 
 .footer-contato p {
@@ -218,5 +218,5 @@ footer {
   background-color: #000000;
   padding: 10px 0;
   text-align: center;
+  width: 100%;
 }
-

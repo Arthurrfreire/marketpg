@@ -1,6 +1,4 @@
-// ... (função navigateTo e carregamento inicial) ...
 
-// Carrossel
 const carouselImages = document.querySelectorAll('#carousel img');
 let currentImageIndex = 0;
 
@@ -15,6 +13,5 @@ function nextImage() {
   showImage(currentImageIndex);
 }
 
-// Inicia o carrossel
 showImage(currentImageIndex);
-setInterval(nextImage, 5000); // Troca a imagem a cada 5 segundos
+setInterval(nextImage, 5000); 

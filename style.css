@@ -61,9 +61,10 @@ nav button {
 
 .banner-text h1 {
   color: #32466D;
-  font-family: "Roboto Slab", Arial Black, Gadget, sans-serif; 
-  font-size: 3em;
-  margin-bottom: 10px;
+  padding: 0;
+  margin: 0 0 20px;
+  font-weight: 800;
+  font-family: "FSLola", sans-serif;
 }
 
 .banner-text p {

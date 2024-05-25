@@ -26,7 +26,7 @@ Este projeto contém o código-fonte ainda em desenvolvimento, da landing page d
 
 ## Demonstração
 
-[![Página inicial do Provisão Supermercados](https://i.imgur.com/zTHYGII.png)](https://imgur.com/zTHYGII)
+![](https://i.imgur.com/zTHYGII.gif)
 
 ## Personalização
 

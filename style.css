@@ -256,11 +256,12 @@ footer {
   font-family: 'Inter', sans-serif;
 }
 .card-promotion {
+  background: linear-gradient(to right, #F5BD31 50%, #243F72 50%);
   background-color: #fff;
   border-radius: 10px;
   padding: 20px;
   margin-top: 50px;
-  text-align: center; /* Adicionado para centralizar o conteúdo */
+  text-align: center;
 }
 
 .card-promotion h2 {
@@ -275,18 +276,25 @@ footer {
   margin-bottom: 20px;
 }
 
-/* Estilos para as imagens dentro de .card-promotion */
+.highlight {
+  font-weight: bold;
+  color: red;
+}
+
+.small-text {
+  font-size: 0.8em;
+}
+
 .card-image, .new-card-image {
   background-size: cover;
   height: 200px;
   width: 320px;
-  margin: auto; /* Adicionado para centralizar as imagens */
+  margin: auto; 
   margin-bottom: 20px;
 }
 
-/* Adicionando uma segunda classe para a nova imagem */
 .new-card-image {
-  background-image: url('https://i.imgur.com/xoigIX5.png'); /* Substitua com a URL da nova imagem */
+  background-image: url('https://i.imgur.com/xoigIX5.png'); 
 }
 
 .cta-button {

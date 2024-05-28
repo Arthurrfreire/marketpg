@@ -255,3 +255,42 @@ footer {
   border-radius: 5px;
   font-family: 'Inter', sans-serif;
 }
+.card-promotion {
+  background-color: #fff;
+  border-radius: 10px;
+  padding: 20px;
+  margin-top: 50px;
+  display: inline-block;
+}
+.card-promotion h2 {
+  color: #007bff;
+  font-size: 2em;
+  margin-bottom: 10px;
+}
+.card-promotion p {
+  color: #333;
+  font-size: 1.2em;
+  margin-bottom: 20px;
+}
+.card-image {
+  background-image: url('card-placeholder.png');
+  background-size: cover;
+  height: 200px;
+  width: 320px;
+  margin-bottom: 20px;
+}
+.cta-button {
+  background-color: #ffc107;
+  color: #007bff;
+  padding: 10px 20px;
+  text-decoration: none;
+  display: inline-block;
+  border-radius: 5px;
+  font-weight: bold;
+}
+.assai-font-style {
+  font-family: 'Arial', sans-serif; /* Substitua pelo nome da fonte desejada */
+  font-weight: bold; /* Para texto em negrito */
+  color: #0047bb; /* Cor azul, como na imagem */
+  text-transform: capitalize; /* Primeira letra de cada palavra em maiúscula */
+}

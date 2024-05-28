@@ -260,25 +260,35 @@ footer {
   border-radius: 10px;
   padding: 20px;
   margin-top: 50px;
-  display: inline-block;
+  text-align: center; /* Adicionado para centralizar o conteúdo */
 }
+
 .card-promotion h2 {
   color: #007bff;
   font-size: 2em;
   margin-bottom: 10px;
 }
+
 .card-promotion p {
   color: #333;
   font-size: 1.2em;
   margin-bottom: 20px;
 }
-.card-image {
-  background-image: url('card-placeholder.png');
+
+/* Estilos para as imagens dentro de .card-promotion */
+.card-image, .new-card-image {
   background-size: cover;
   height: 200px;
   width: 320px;
+  margin: auto; /* Adicionado para centralizar as imagens */
   margin-bottom: 20px;
 }
+
+/* Adicionando uma segunda classe para a nova imagem */
+.new-card-image {
+  background-image: url('https://i.imgur.com/xoigIX5.png'); /* Substitua com a URL da nova imagem */
+}
+
 .cta-button {
   background-color: #ffc107;
   color: #007bff;
@@ -287,10 +297,4 @@ footer {
   display: inline-block;
   border-radius: 5px;
   font-weight: bold;
-}
-.assai-font-style {
-  font-family: 'Arial', sans-serif; /* Substitua pelo nome da fonte desejada */
-  font-weight: bold; /* Para texto em negrito */
-  color: #0047bb; /* Cor azul, como na imagem */
-  text-transform: capitalize; /* Primeira letra de cada palavra em maiúscula */
 }

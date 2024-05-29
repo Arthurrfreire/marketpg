@@ -1,3 +1,13 @@
+.raleway-font {
+  font-family: "Raleway", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 450; /* Valor máximo de peso para destacar */
+  font-style: normal;
+  color: #ff0000; /* Cor vermelha para chamar atenção */
+  font-size: 2em; /* Tamanho grande para destaque */
+  text-shadow: 2px 2px #000000; /* Sombra para efeito 3D */
+}
+
 body {
   font-family: 'Inter', sans-serif;
   margin: 0;
@@ -256,12 +266,23 @@ footer {
   font-family: 'Inter', sans-serif;
 }
 .card-promotion {
-  background: linear-gradient(to right, #F5BD31 50%, #243F72 50%);
+  background: linear-gradient(to bottom, rgba(245,189,49,0.7), rgba(135,206,235,0.7));
   background-color: #fff;
   border-radius: 10px;
   padding: 20px;
   margin-top: 50px;
   text-align: center;
+}
+
+.nome-provisao {
+  font-size: clamp(1rem, 9vw, 6rem);
+  text-align: center;
+  padding: 0;
+  margin: 0 0 20px;
+  font-weight: 450;
+  font-family: "Raleway", sans-serif;
+  color: #ff0000; /* Cor vermelha para chamar atenção */
+  text-shadow: 2px 2px #000000; /* Sombra para efeito 3D */
 }
 
 .card-promotion h2 {

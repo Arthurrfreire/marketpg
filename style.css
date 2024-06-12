@@ -1,4 +1,4 @@
-.body {
+body {
   font-family: 'Inter', sans-serif;
   margin: 0;
   padding: 0;
@@ -10,15 +10,16 @@
   width: 80%;
   max-width: 1200px;
   margin: 0 auto;
-  padding: 20px;
+  padding: 0 20px; /* Remove extra padding */
 }
 
 header {
   background-color: #243F72; 
-  padding: 10px 0; /* Reduced padding */
+  padding: 5px 0; /* Further reduced padding */
   color: white;
   display: flex;
   align-items: center;
+  height: 50px; /* Further reduced height */
 }
 
 .header-content {
@@ -33,24 +34,24 @@ header {
 }
 
 .logo-area img {
-  max-width: 45%; 
+  max-width: 20%; /* Further reduced logo size */
   height: auto; 
 }
 
 nav {
   display: flex; 
-  gap: 20px; 
+  gap: 10px; /* Reduced gap between buttons */
 }
 
 nav button {
   background-color: #F53131;
   color: white;
-  padding: 10px 20px;
+  padding: 5px 10px; /* Reduced padding */
   border: none;
   cursor: pointer;
   border-radius: 5px;
   font-family: 'Inter', sans-serif;
-  font-size: 1em;
+  font-size: 0.9em; /* Reduced font size */
 }
 
 #banner {
@@ -89,6 +90,7 @@ nav button {
   width: 100%;
   height: 50vh;
   overflow: hidden;
+  margin-top: -5px; /* Adjusted margin to remove gap */
 }
 
 .carousel-container {
@@ -154,7 +156,7 @@ footer {
   align-items: center;
   flex-wrap: wrap;
   gap: 20px;
-  padding: 40px 20px; 
+  padding: 20px; /* Reduced padding */
 }
 
 .logo-footer-area {
@@ -163,7 +165,7 @@ footer {
 }
 
 .logo-footer-area img {
-  height: 100px; 
+  height: 50px; /* Reduced logo size */
   margin-right: 20px; 
 }
 
@@ -467,7 +469,7 @@ footer {
   width: 100%;
   height: 50vh;
   overflow: hidden;
-  margin-bottom: 20px; /* Adjusted margin */
+  margin-top: -5px; /* Adjusted margin to remove gap */
 }
 
 #store-location {

@@ -231,6 +231,14 @@ footer {
   width: 100%;
 }
 
+.highlighted-text {
+  font-size: 2rem; /* Tamanho maior */
+  font-weight: 700; /* Negrito */
+  color: #ffcc00; /* Cor amarela */
+  text-align: center; /* Centralizado */
+  margin-bottom: 20px; /* Espaçamento inferior */
+}
+
 .footer-images {
   display: flex;
   justify-content: center;

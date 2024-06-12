@@ -1,14 +1,4 @@
-.raleway-font {
-  font-family: "Raleway", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: 450; /* Valor máximo de peso para destacar */
-  font-style: normal;
-  color: #ff0000; /* Cor vermelha para chamar atenção */
-  font-size: 2em; /* Tamanho grande para destaque */
-  text-shadow: 2px 2px #000000; /* Sombra para efeito 3D */
-}
-
-body {
+.body {
   font-family: 'Inter', sans-serif;
   margin: 0;
   padding: 0;
@@ -25,7 +15,7 @@ body {
 
 header {
   background-color: #243F72; 
-  padding: 20px 0;
+  padding: 10px 0; /* Reduced padding */
   color: white;
   display: flex;
   align-items: center;
@@ -318,6 +308,7 @@ footer {
   border-radius: 5px;
   font-family: 'Inter', sans-serif;
 }
+
 .card-promotion {
   background: linear-gradient(to bottom, rgba(245,189,49,0.7), rgba(135,206,235,0.7));
   background-color: #fff;
@@ -476,7 +467,7 @@ footer {
   width: 100%;
   height: 50vh;
   overflow: hidden;
-  margin-bottom: 40px; 
+  margin-bottom: 20px; /* Adjusted margin */
 }
 
 #store-location {

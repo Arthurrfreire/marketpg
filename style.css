@@ -559,7 +559,7 @@ footer {
 
 .store-details i {
   margin-right: 5px;
-  color: #243F72; /* Adicione uma cor para os ícones */
+  color: #243F72; 
 }
 
 .store-details h3 {
@@ -576,4 +576,50 @@ footer {
   align-items: center;
   gap: 5px;
   color: #555;
+}
+
+.store-content {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 10px;
+}
+
+.store-info {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: space-between;
+}
+
+.store-details {
+  flex: 1;
+  min-width: 300px;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.store-details h3 {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  color: #243F72;
+  margin-bottom: 10px;
+}
+
+.store-details p {
+  margin: 5px 0;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  color: #555;
+}
+
+.store-details iframe {
+  margin-top: 10px;
+  border-radius: 10px;
 }

@@ -478,3 +478,86 @@ footer {
   overflow: hidden;
   margin-bottom: 40px; 
 }
+
+#store-location {
+  padding: 50px 0;
+  background-color: #f9f9f9;
+}
+
+.container {
+  width: 80%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.store-content h2 {
+  color: #243F72;
+  text-align: center;
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+}
+
+.store-content .highlight {
+  color: #F58C00;
+}
+
+.store-info {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 20px;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.store-details, .store-specialties {
+  flex: 1;
+  color: #333;
+}
+
+.store-details h3 {
+  color: #243F72;
+  margin-bottom: 10px;
+}
+
+.store-details p {
+  margin: 5px 0;
+  color: #555;
+}
+
+.store-details button {
+  margin-top: 10px;
+  padding: 10px 20px;
+  font-size: 1rem;
+  color: #fff;
+  background-color: #F58C00;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.store-details button:hover {
+  background-color: #e67e00;
+}
+
+.store-specialties h4 {
+  color: #243F72;
+  margin-bottom: 10px;
+}
+
+.store-specialties p {
+  margin: 5px 0;
+  color: #555;
+}
+
+.store-map {
+  margin-top: 20px;
+}
+
+.store-map iframe {
+  width: 100%;
+  border: 0;
+  border-radius: 10px;
+}

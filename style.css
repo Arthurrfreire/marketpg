@@ -234,6 +234,7 @@ footer {
 .footer-images {
   display: flex;
   justify-content: center;
+  align-items: center;
   gap: 40px;
   padding: 20px 0;
   background-color: #243F72;
@@ -247,10 +248,19 @@ footer {
 .footer-image-item img {
   max-width: 150px;
   border-radius: 10px;
+  display: block;
+  margin: 0 auto;
 }
 
-.footer-image-item button {
-  margin-top: 10px;
+.footer-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  padding: 20px 0;
+  background-color: #243F72;
+}
+
+.footer-buttons button {
   padding: 10px 20px;
   font-size: 1rem;
   font-weight: 700;
@@ -259,9 +269,10 @@ footer {
   border: none;
   border-radius: 5px;
   cursor: pointer;
+  display: inline-block;
 }
 
-.footer-image-item button:hover {
+.footer-buttons button:hover {
   background-color: #e6b800;
 }
 

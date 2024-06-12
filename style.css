@@ -149,7 +149,8 @@ nav button {
 
 footer {
   background-color: #243F72;
-  color: white; 
+  color: white;
+  padding: 20px 0; 
 }
 
 .rodape-content {
@@ -157,52 +158,28 @@ footer {
   justify-content: space-between;
   align-items: center;
   flex-wrap: wrap;
-  gap: 20px;
+  gap: 10px; 
   padding: 20px; 
 }
 
 .logo-footer-area {
-  display: flex; 
-  align-items: center; 
+  display: flex;
+  align-items: center;
 }
 
 .logo-footer-area img {
   height: 50px; 
-  margin-right: 20px; 
-}
-
-.whatsapp-button {
-  display: flex;
-  align-items: center;
-  background-color: #F5BD31; 
-  color: #333; 
-  padding: 10px 20px;
-  border: none;
-  border-radius: 25px; 
-  font-weight: bold;
-  text-decoration: none;
-}
-
-.whatsapp-button img {
-  height: 20px;
-  margin-right: 8px;
+  margin-right: 10px; 
 }
 
 .footer-links {
-  display: flex; 
-  gap: 20px;
+  display: flex;
+  justify-content: center;
+  flex: 1;
 }
 
 .links-column {
-  flex: 1; 
-  text-align: center; 
-}
-
-.footer-links a {
-  display: block;
-  color: white; 
-  text-decoration: none;
-  margin-bottom: 10px;
+  text-align: center;
 }
 
 .footer-contato {
@@ -211,19 +188,83 @@ footer {
 
 .footer-contato h3 {
   margin-top: 0;
-  margin-bottom: 10px; 
+  margin-bottom: 5px; 
 }
 
 .footer-contato p {
-  margin: 5px 0; 
+  margin: 3px 0; 
+}
+
+.whatsapp-button {
+  display: flex;
+  align-items: center;
+  background-color: #F5BD31;
+  color: #333;
+  padding: 8px 15px; 
+  border: none;
+  border-radius: 25px;
+  font-weight: bold;
+  text-decoration: none;
+  font-size: 0.9em; 
+}
+
+.whatsapp-button img {
+  height: 15px; 
+  margin-right: 5px; 
+}
+
+.footer-images {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px; 
+  padding: 10px 0; 
+  background-color: #243F72;
+}
+
+.footer-image-item {
+  text-align: center;
+  color: #ffcc00;
+}
+
+.footer-image-item img {
+  max-width: 100px; 
+  border-radius: 10px;
+  display: block;
+  margin: 0 auto;
+}
+
+.footer-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 20px; 
+  padding: 10px 0; 
+  background-color: #243F72;
+}
+
+.footer-buttons button {
+  padding: 8px 15px; 
+  font-size: 0.9rem; 
+  font-weight: 700;
+  color: #243F72;
+  background-color: #ffcc00;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.footer-buttons button:hover {
+  background-color: #e6b800;
 }
 
 .footer-bottom {
   background-color: #000000;
-  padding: 10px 0;
+  padding: 10px 0; 
   text-align: center;
   width: 100%;
+  font-size: 0.8em; 
 }
+
 
 .highlighted-text {
   font-size: 2rem; 

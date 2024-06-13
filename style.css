@@ -156,7 +156,7 @@ footer {
 .footer-content {
   display: flex;
   justify-content: space-between;
-  align-items: flex-start;
+  align-items: center; /* Alinha os itens verticalmente no centro */
   flex-wrap: wrap;
   gap: 20px;
   max-width: 1200px;
@@ -178,6 +178,8 @@ footer {
 .footer-logo {
   max-width: 120px;
   margin-bottom: 10px;
+  display: block;
+  margin: 0 auto;
 }
 
 .footer-button {
@@ -189,6 +191,8 @@ footer {
   cursor: pointer;
   font-size: 0.8em;
   font-weight: bold;
+  display: inline-block;
+  margin-top: 10px;
 }
 
 .footer-button:hover {

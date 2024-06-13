@@ -150,7 +150,7 @@ nav button {
 footer {
   background-color: #243F72;
   color: white;
-  padding: 20px 0; 
+  padding: 20px 0;
 }
 
 .footer-content {
@@ -194,6 +194,50 @@ footer {
   display: inline-block;
   margin-top: 10px;
 }
+
+.footer-button:hover {
+  background-color: #e6b800;
+}
+
+.social-icons a {
+  color: white;
+  margin: 0 10px;
+  font-size: 1.5em;
+  transition: color 0.3s;
+}
+
+.social-icons a:hover {
+  color: #ffcc00;
+}
+
+.whatsapp-button {
+  display: inline-flex;
+  align-items: center;
+  background-color: #F5BD31;
+  color: #333;
+  padding: 5px 10px;
+  border: none;
+  border-radius: 25px;
+  font-weight: bold;
+  text-decoration: none;
+  font-size: 0.8em;
+  margin-top: 10px;
+}
+
+.whatsapp-button img {
+  height: 12px;
+  margin-right: 5px;
+}
+
+.footer-bottom {
+  background-color: #000000;
+  padding: 10px 0;
+  text-align: center;
+  width: 100%;
+  font-size: 0.8em;
+  margin-top: 40px; /* Aumenta o espaço entre o rodapé azul e a seção preta */
+}
+
 
 .footer-button:hover {
   background-color: #e6b800;

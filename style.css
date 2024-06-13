@@ -235,9 +235,8 @@ footer {
   text-align: center;
   width: 100%;
   font-size: 0.8em;
-  margin-top: 40px; /* Aumenta o espaço entre o rodapé azul e a seção preta */
+  margin-top: 40px;
 }
-
 
 .footer-button:hover {
   background-color: #e6b800;
